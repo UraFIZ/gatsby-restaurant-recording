@@ -1,0 +1,10 @@
+:root {
+  --mainYellow: #d2aa5c;
+}
+
+@media (min-width: 768px) {
+  .nWrapper {
+    display: flex;
+    align-items: center;
+  }
+}

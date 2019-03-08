@@ -10,11 +10,12 @@ import PropTypes from "prop-types"
 import "./bootstrap.min.css"
 import { createGlobalStyle } from "styled-components"
 /* import "./layout.css" */
-
+import Navbar from "../components/globals/navbar/Navbar"
 const Layout = ({ children }) => {
   return (
     <Fragment>
       <GlobalStyle />
+      <Navbar />
       {children}
     </Fragment>
   )
